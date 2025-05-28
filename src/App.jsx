@@ -17,7 +17,7 @@ import SpiderGlazingWork from "./components/Services/ServiceDropdown/SpiderGlazi
 import ShowerGlassPartitionOpenable from "./components/Services/ServiceDropdown/ShowerGlassPartitionOpenable";
 import WalkInShowerGlassPartition from "./components/Services/ServiceDropdown/WalkInShowerGlassPartition";
 import ShowerGlassPartitionSlidingPartition from "./components/Services/ServiceDropdown/ShowerGlassPartitionSlidingPartition";
-import Gipsumportion from "./components/Services/ServiceDropdown/gipsumportion";
+import Gipsumportion from "./components/Services/ServiceDropdown/Gipsumportion";
 import GypsumPartitionWork from "./components/Services/ServiceDropdown/GypsumPartitionWork";
 import ScrollToTop from "./components/ScrollToTop";
 import FloatingSocialMedia from "./components/FloatingSocialMedia";
@@ -87,7 +87,7 @@ function App() {
               element={<WalkInShowerGlassPartition />}
             />
             <Route
-              path="/services/gipsumportion.jsx"
+              path="/services/gipsumportion"
               element={<Gipsumportion/>}
             />
             <Route
